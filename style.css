@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px; /* Footer 높이만큼 패딩 추가 */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    gap: 1em;
+}
+
+.logo-container img {
+    height: 40px;
+    width: auto;
+}
+
+.subjects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em;
+}
+
+.subject-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1em;
+    padding: 1em;
+    width: calc(25% - 2em);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.subject-card h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.subject-card p {
+    margin: 0.5em 0;
+}
+
+.subject-card a {
+    color: #4CAF50;
+    text-decoration: none;
+    border: 1px solid #4CAF50;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+.subject-card a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .subject-card {
+        width: calc(50% - 2em);
+    }
+    .logo-container {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .subject-card {
+        width: calc(100% - 2em);
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border: 1px solid white;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #4CAF50;
+}
