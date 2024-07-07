@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const subjects = [
         { name: '생활속의첨단소재나노적층공정기술', professors: ['교수1', '교수2', '교수3(중앙대)'], pdf: 'pdfs/subject1.pdf' },
-        { name: '교과목2', professors: ['교수3'], pdf: 'pdfs/subject2.pdf' },
-        { name: '교과목3', professors: ['교수3'], pdf: 'pdfs/subject3.pdf' },
-        { name: '교과목4', professors: ['교수3'], pdf: 'pdfs/subject4.pdf' },
-        { name: '교과목5', professors: ['교수3'], pdf: 'pdfs/subject5.pdf' },
+        { name: '교과목2', professors: ['교수3'], pdf: 'pdfs/subject1.pdf' },
+        { name: '교과목3', professors: ['교수3'], pdf: 'pdfs/subject1.pdf' },
+        { name: '교과목4', professors: ['교수3'], pdf: 'pdfs/subject1.pdf' },
+        { name: '교과목5', professors: ['교수3'], pdf: 'pdfs/subject1.pdf' },
         // 추가 교과목 데이터 여기에 삽입...
         { name: '교과목20', professors: ['교수4', '교수5', '교수6', '교수7'], pdf: 'pdfs/subject20.pdf' },
     ];

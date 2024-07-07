@@ -10,11 +10,12 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     background-color: #4CAF50;
     color: white;
     padding: 1em;
+    justify-content: center;
 }
 
 header h1 {
