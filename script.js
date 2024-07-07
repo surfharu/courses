@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const subjects = [
-        { name: '교과목1', professors: ['교수1', '교수2', '교수3(중앙대)'], pdf: 'pdfs/subject1.pdf' },
+        { name: '생활속의첨단소대나노적층공정기술', professors: ['교수1', '교수2', '교수3(중앙대)'], pdf: 'pdfs/subject1.pdf' },
         { name: '교과목2', professors: ['교수3'], pdf: 'pdfs/subject2.pdf' },
         { name: '교과목3', professors: ['교수3'], pdf: 'pdfs/subject3.pdf' },
         { name: '교과목4', professors: ['교수3'], pdf: 'pdfs/subject4.pdf' },
